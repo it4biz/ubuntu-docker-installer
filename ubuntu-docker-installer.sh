@@ -10,8 +10,22 @@ sudo apt-get update
 
 sudo apt-get -y install wget
 
+# Docker
 sudo wget -qO- https://get.docker.com/ | sh
 
 sudo wget -qO- https://get.docker.com/gpg | sudo apt-key add -
 
 sudo docker run hello-world
+
+# Install Docker Compose
+
+#Get Pip
+sudo wget https://bootstrap.pypa.io/get-pip.py
+
+#Install Pip Install
+sudo python get-pip.py
+
+sudo pip install -U docker-compose==1.4.2
+
+# Test Docker Compose
+docker-compose --version
