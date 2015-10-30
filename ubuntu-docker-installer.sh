@@ -1,4 +1,4 @@
-Author: Caio Moreno de Souza (caiomsouza@gmail.com)
+#Author: Caio Moreno de Souza (caiomsouza@gmail.com)
 
 # Ubuntu Docker Installer for Ubuntu 14.04
 
